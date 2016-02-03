@@ -25,7 +25,7 @@ app.configure(function(){
 app.configure('development', function(){
   app.use(express.errorHandler());
 });
-
+console.log("testssssss");
 app.get('/', routes.index);
 app.get('/hero/:name', routes.hero);
 app.post('/hero/add-fact', routes.addFact);

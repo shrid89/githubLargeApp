@@ -27,7 +27,7 @@ var heroes = [
   }
 ];
 
-
+console.log("11111");
 exports.index = function(req, res) {
   var names = heroes.map(function(p) { return p.name; });
   res.render('index', { heroes: names })
