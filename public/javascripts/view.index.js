@@ -20,6 +20,7 @@ $(function() {
     return false;
   });
   console.log("testzzzzzssssss");
+    console.log("testzzzzzssssaaass");
   $('#add-new-fact').click(function() {
     
     var name = $('#right-column h2').text();
